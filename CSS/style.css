@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    /* height: 100px; */
+}
+
+.education {
+   
+    background-image: url("../Images/Background/h1_hero1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center center; */
+    /* position:fixed; */
+    height: 500px;
+    width: 100%;
+    font-family: "Chivo",sans-serif;
+   
+    
+}
+
+
+.Teaching{
+    background-color: #FCF2EB;
+    /* height: 500px; */
+    font-family: "Chivo",sans-serif;
+}
+
+.offer{
+    font-family: "Chivo",sans-serif;
+
+}
+.Resource{
+    background-color: #F2FBF9;
+    /* height: 500px; */
+    font-family: "Chivo",sans-serif;
+
+}
+.Resource-card:hover{
+    background-color: #DFF1EC;
+}
+.story{
+    font-family: "Chivo",sans-serif;
+
+}
+.patnars{
+    font-family: "Chivo",sans-serif;
+    /* height: 200px; */
+
+}
+
+@media (min-width: 768px) {
+    .carousel-inner .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .carousel-inner .col-md-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .carousel-inner .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .carousel-inner .col-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+.students{
+    background-color: #007A5C;
+    font-family: "Chivo",sans-serif;
+    
+
+
+}
+.students p{
+    font-size: 20px;
+    font-family: "Chivo",sans-serif;
+}
+/* End of the session students */
+
+.footer{
+    background-color: #32404D;
+    /* height: 500px; */
+    font-family: "Chivo",sans-serif;
+
+}
+/* ---------------------------------------------------------------- */
+
+/* Contact Form CSS File Start here */
+.contact{
+    background-image: url("..//Images/Background/h1_hero1.jpg");
+    height: 350px;
+    font-family: "Chivo",sans-serif;
+}
+.form{
+    /* height: 500px; */
+    font-family: "Chivo",sans-serif;
+
+}
+/* ENd of the Session Form */
+.oops{
+    background-color: #E8EAED;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
